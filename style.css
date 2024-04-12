@@ -1,0 +1,52 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  background: linear-gradient(135deg, #0072b1, #00c6ff);
+  color: #FFFFFF;
+  text-align: center;
+}
+.options-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.option {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.option:last-child {
+  margin-right: 0;
+}
+input[type="number"] {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+}
+button {
+  background-color: #005682;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background-color: #003d5b;
+}
+a#watermark {
+  color: rgba(255, 255, 255, 0.7);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  text-decoration: none;
+}
+a#watermark:hover {
+  color: #ffffff;
+}

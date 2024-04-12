@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LinkedIn Invitation Acceptor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>LinkedIn Invitation Acceptor</h2>
+
+  <div class="options-container">
+    <div class="option">
+      <input type="radio" id="acceptAll" name="acceptOption" value="all" onchange="toggleInviteOption()">
+      <label for="acceptAll">Accept All Invitations</label>
+    </div>
+  
+    <div class="option">
+      <input type="radio" id="acceptNumber" name="acceptOption" value="number" onchange="toggleInviteOption()">
+      <label for="acceptNumber">Accept a Number of Invitations:</label>
+      <input type="number" id="inviteCount" min="1" value="1" disabled>
+    </div>
+  </div>
+
+  <button id="acceptInvitations">Accept Invitations</button>
+  
+  <a href="https://github.com/raveshrawal" target="_blank" id="watermark">@raveshrawal</a>
+
+  <script src="popup.js"></script>
+</body>
+</html>
